@@ -1,0 +1,27 @@
+.card{
+position: relative;
+bottom: 48vh;
+margin-left: 15vh;
+}
+
+.card p {
+    margin: 18px 0 0;
+}
+
+@media screen and  (max-width: 600px){
+ .card{
+   /* display: none; */
+   top: -20vh;
+ } 
+
+}
+@media screen and  (max-width: 1020px){
+    .card{
+        top: -35vh;
+    }
+}
+@media screen and  (max-width: 376px){
+    .card{
+        top: -20vh;
+    }
+}

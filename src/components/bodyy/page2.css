@@ -1,0 +1,15 @@
+
+.app{
+display: flex;
+
+}
+
+@media screen and  (max-width: 600px){
+    .app{
+        position: relative;
+        right: 24%;        
+        flex-direction: column;
+       
+}
+
+}

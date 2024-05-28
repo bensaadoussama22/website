@@ -1,0 +1,151 @@
+
+@import url('https://fonts.cdnfonts.com/css/satoshi');
+/* .Page1{
+    position: relative;
+    top: 30vh;
+} */
+.Moto{
+    height: 80vh;
+    width: 96vh;
+    position: relative;
+    left: 80vh;
+    top:  -50vh;
+    z-index: 1;
+}
+.Textebody{
+    position: relative;
+    top:20%;
+    margin-top: -60vh;
+   font-size: 8vh;
+   font-family: 'Satoshi', sans-serif;
+   font-weight: 00;
+    z-index: 2;
+}
+.Rtexte{
+    color: #ea2627;
+    border-color: aliceblue;
+    width: 210px;
+    font-weight: 600;
+    margin-left: 5vh;
+    }
+.T{
+    font-size: 5vh;
+    position: relative;
+    top: 60vh;
+    color: #ea2627;
+    top: 5vh;
+}
+.Ftexte{
+    margin-left: 5vh;
+     margin-top: -15vh;
+}
+.Ntexte{
+    margin-left: 5vh;
+     margin-top: -15vh;
+}
+
+
+
+
+
+
+.button {
+
+    display: inline-block;
+    border-radius: 7px;
+    border: none;
+    background: #e92729;
+    color: white;
+    font-family: inherit;
+    text-align: center;
+    font-size: 13px;
+    box-shadow: 0px 14px 56px -11px #e92729;
+    width: 13em;
+    padding: 1em;
+    transition: all 0.4s;
+    cursor: pointer;
+    position: relative;
+    top: -60vh;
+   }
+   
+   .button a {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.4s;
+    color: white;
+   }
+   
+   .button a:after {
+    content: '| maintenant';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.7s;
+   }
+   
+   .button:hover a {
+    padding-right: 5.99em;
+   }
+   
+   .button:hover a:after {
+    opacity: 4;
+    right: 0;
+   }
+
+   @media screen and  (max-width: 1018px){
+   
+.Rtexte{
+  margin-top: -85vh;
+    }
+.T{
+    font-size: 5vh;
+    position: relative;
+    top: 60vh;
+    color: #ea2627;
+    top: 5vh;
+}
+.Ftexte{
+    margin-left: 5vh;
+     margin-top: -15vh;
+}
+.Ntexte{
+    margin-left: 5vh;
+     margin-top: -15vh;
+}
+.button{
+   top: -43vh;
+}}
+@media screen and  (max-width: 1020px){
+    .Textebody{
+        top: -15vh;
+    }
+    .button{
+        top: -25vh;
+    }
+}
+@media screen and  (max-width: 1020px){
+    .Textebody{
+        top: -5vh;
+    }
+    .button{
+        top: -45vh;
+    }
+}
+@media screen and  (max-width: 600px){
+    .Textebody{
+        top: 19vh;
+    }
+    .button{
+        top: -25vh;
+    }
+}
+  
+
+    @media screen and  (max-width: 1020px){
+        .Moto{
+           display: none;
+        }
+    }
+ 

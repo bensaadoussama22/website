@@ -1,0 +1,38 @@
+
+.Allo{
+    border-radius: 100%;
+    width: 15vh;
+    height: 15vh;
+    position: fixed;
+    top: 0px; /* Ajustez la marge supérieure selon vos besoins */
+    left: 20px; /* Ajustez la marge gauche selon vos besoins */
+}
+.Alloee{
+    width: 15vh;
+    height: 8vh;
+    position: fixed;
+    top: 20px; /* Ajustez la marge supérieure selon vos besoins */
+    left: 80px; /* Ajustez la marge gauche selon vos besoins */
+
+}
+
+@media screen and  (max-width: 820px){
+    .Alloee{
+        display: none;
+    }
+}
+@media screen and  (max-width: 600px){
+    .Alloee{
+        display: none;
+    }
+    .container{
+        position: relative;
+    }
+    .Allo {
+        position: fixed;
+        top: 50%;
+
+  right: 0%;
+  transform: translate(0%, -330%);
+      }
+}

@@ -1,0 +1,160 @@
+.navbar {
+    background-color: none  ;
+    padding: 10px 20px;
+    position: fixed;
+    top: 5vh;
+    right: 150px;
+  }
+  
+  .nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  .nav-list li {
+    margin-right: 50px; 
+  }
+  
+.nav-list li a {
+    color:  #3c3932;
+    text-decoration: none;
+  }
+  .nav-list  :hover {
+    color: #e82628;
+    cursor: pointer;
+  }
+
+  .Butonn-links {
+    display: none; /* Cachez les liens par défaut */
+  }
+  .propos{
+    white-space: nowrap;
+  }
+ 
+.menu-button {
+  display: none;
+  position: absolute;
+  top: 41px;
+  right: 380px;
+  width: 25x;
+  height: 25px;
+}
+/* INPUT SEARCH*/
+/*----------------------------------*/
+
+.input {
+  width: 140px;
+  height: 35px;
+  border: none;
+  outline: none;
+  caret-color: rgb(255, 81, 0);
+  background-color: #f7dec7;
+  border-radius: 30px;
+  border-color: #e82628;
+  padding-left: 15px;
+  letter-spacing: 0.8px;
+  color: rgb(19, 19, 19);
+  font-size: 13.4px;
+  position: fixed;
+    top: 5.8vh;
+    right: 40px;
+}
+
+/*-----------------------------------*/
+  @media screen and  (max-width: 816px){
+    .navbar {
+        display: none;
+      }
+      .menu-button{
+        display: block;
+        position: fixed;
+      
+        right: 10%;
+        
+      }
+      .navbar {
+        display: none;
+      }
+      .Butonn-links.active {
+        width: 100%;
+        display: flex; 
+        flex-direction: column; 
+        background-color:#a07f63;
+        opacity: 0.9;
+        transition: display 0.93s ;
+        padding: 90px; 
+        font-size: 30px;
+      height: 100%;
+       position: fixed;
+       left: 0;
+       text-align: center;
+        z-index: 99;
+        transform: translateX(-50%);
+        
+      }
+      .navbarr {
+        background-color: none;
+        color: #a07f63;
+        padding: 15px -20px;
+        position: absolute;
+        top: 5vh;
+        margin-top: 1.5rem;
+        left: 0%;
+        
+      }
+      .navbarr li {
+        margin-bottom: 7vh; /* Espacement entre chaque élément */
+        
+      }
+      .input{
+        display:none;
+      }
+      .InputContainer{
+        display:none;
+      }
+       
+.Butonn-links li a {
+  color:  white;
+  text-decoration: none;
+}
+
+}
+
+@media screen and  (max-width: 880px){
+  .Butonn-links.active {
+    position: fixed;
+       left: 90vh;
+  }
+}
+@media screen and  (max-width: 670px){
+  .Butonn-links.active {
+    position: fixed;
+       left: 60vh;
+  }
+}
+
+@media screen and  (max-width: 601px){
+  .Butonn-links.active {
+    position: fixed;
+       left: 45vh;
+  }
+}
+@media screen and  (max-width: 588px){
+  .Butonn-links.active {
+    position: fixed;
+       left: 45vh;
+  }
+}
+@media screen and  (max-width: 477px){
+  .Butonn-links.active {
+    position: relative;
+       left: 20vh;
+  }
+}
+@media screen and  (max-width: 390px){
+  .Butonn-links.active {
+    position: fixed;
+       left:20vh;
+  }
+}
